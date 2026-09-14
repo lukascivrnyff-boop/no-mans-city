@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "notes": "NPC fleet manifest. Same base GLB may spawn in multiple paint variants to increase visual diversity. Rare/exotic cars have low traffic weight.",
+  "vehicles": [
+    {"id":"vw-golf-r32-2002","asset":"2002_volkswagen_golf_r32_mk4(1).glb","class":"hatchback","trafficWeight":18,"maxSpeed":0.135,"acceleration":0.040,"colors":["#1f2937","#d1d5db","#2563eb","#111827","#b91c1c","#15803d"]},
+    {"id":"bmw-e36-m3-1993","asset":"1993_bmw_m3_coupe_e36(1).glb","class":"coupe","trafficWeight":12,"maxSpeed":0.145,"acceleration":0.043,"colors":["#111827","#d1d5db","#1d4ed8","#065f46","#7f1d1d","#f59e0b"]},
+    {"id":"bmw-m340i-2020","asset":"2020_bmw_m340i_xdrive(1).glb","class":"sedan","trafficWeight":16,"maxSpeed":0.150,"acceleration":0.045,"colors":["#111827","#e5e7eb","#374151","#1d4ed8","#991b1b","#0f766e"]},
+    {"id":"dodge-charger-2015","asset":"2015_dodge_charger_srt_hellcat(1).glb","class":"sedan","trafficWeight":7,"maxSpeed":0.165,"acceleration":0.050,"colors":["#111827","#d1d5db","#991b1b","#7c3aed","#1d4ed8"]},
+    {"id":"cadillac-ct5v-2022","asset":"2022_cadillac_ct5-v_blackwing(1).glb","class":"sedan","trafficWeight":8,"maxSpeed":0.160,"acceleration":0.048,"colors":["#111827","#f3f4f6","#374151","#7f1d1d","#1e3a8a"]},
+    {"id":"cadillac-escalade-2021","asset":"2021_cadillac_escalade_premium(1).glb","class":"suv","trafficWeight":8,"maxSpeed":0.125,"acceleration":0.034,"colors":["#111827","#e5e7eb","#374151","#7f1d1d","#1e3a8a"]},
+    {"id":"xiaomi-yu7-2025","asset":"2025_xiaomi_yu7(1).glb","class":"suv","trafficWeight":9,"maxSpeed":0.140,"acceleration":0.046,"colors":["#111827","#f3f4f6","#0f766e","#1d4ed8","#b45309"]},
+    {"id":"ford-transit-courier-2025","asset":"2025_ford_transit_courier_trend_1.5(1).glb","class":"van","trafficWeight":18,"maxSpeed":0.105,"acceleration":0.030,"colors":["#f3f4f6","#d1d5db","#374151","#1d4ed8","#991b1b"]},
+    {"id":"chevrolet-express-2003","asset":"2003-chevrolet-express-gmc-savana-2500-cargo-van(1).glb","class":"van","trafficWeight":12,"maxSpeed":0.095,"acceleration":0.026,"colors":["#f3f4f6","#d1d5db","#374151","#0f766e","#7f1d1d"]},
+    {"id":"gmc-sierra-2024","asset":"2024_gmc_sierra_1500_at4x(1).glb","class":"pickup","trafficWeight":8,"maxSpeed":0.120,"acceleration":0.032,"colors":["#111827","#e5e7eb","#374151","#7f1d1d","#14532d"]},
+    {"id":"ford-mustang-rtr-2015","asset":"2015_ford_mustang_rtr(1).glb","class":"sport","trafficWeight":4,"maxSpeed":0.175,"acceleration":0.055,"colors":["#111827","#e5e7eb","#991b1b","#1d4ed8","#f59e0b"]},
+    {"id":"audi-r8-2023","asset":"2023_audi_r8_coupe_v10_gt_rwd(1).glb","class":"exotic","trafficWeight":2,"maxSpeed":0.185,"acceleration":0.060,"colors":["#111827","#e5e7eb","#991b1b","#f59e0b","#1d4ed8"]},
+    {"id":"ferrari-488-2019","asset":"2019_ferrari_488_pista(1).glb","class":"exotic","trafficWeight":1,"maxSpeed":0.190,"acceleration":0.062,"colors":["#b91c1c","#f59e0b","#111827","#f3f4f6","#1d4ed8"]},
+    {"id":"ferrari-812-2023","asset":"2023_ferrari_812_competizione(1).glb","class":"exotic","trafficWeight":1,"maxSpeed":0.190,"acceleration":0.060,"colors":["#b91c1c","#f59e0b","#111827","#f3f4f6","#1d4ed8"]},
+    {"id":"lamborghini-revuelto-2024","asset":"2024_lamborghini_revuelto(1).glb","class":"exotic","trafficWeight":1,"maxSpeed":0.195,"acceleration":0.065,"colors":["#facc15","#84cc16","#111827","#f3f4f6","#7c3aed"]}
+  ],
+  "spawnRules": {
+    "targetActiveTraffic": 26,
+    "minimumSpawnDistanceFromPlayer": 0.16,
+    "maximumSpawnDistanceFromPlayer": 0.85,
+    "rareClassCaps": {"sport": 2, "exotic": 1},
+    "duplicateModelColorVariation": true,
+    "avoidIdenticalColorWithinNearbyRadius": 0.18
+  }
+}
